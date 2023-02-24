@@ -15,7 +15,7 @@ SECRET_KEY = cfg('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = cfg('DEBUG')
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['twitter-clone-backend-production-c55e.up.railway.app']
 
 
 # Application definition
