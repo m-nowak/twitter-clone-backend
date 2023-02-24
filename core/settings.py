@@ -31,7 +31,6 @@ INSTALLED_APPS = [
     # Third-party apps
     'rest_framework',
     'corsheaders',
-    # 'rest_framework_simplejwt.token_blacklist',
     # Local apps
     'accounts',
     'tweets'
@@ -136,7 +135,7 @@ USE_TZ = True
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-STATIC_URL = '/static/'
+STATIC_URL = '/staticfiles/'
 
 
 REST_FRAMEWORK = {
